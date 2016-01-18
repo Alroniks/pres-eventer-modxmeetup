@@ -1,29 +1,33 @@
 {
-  "name": "shower",
-  "description": "Shower HTML presentation engine",
-  "version": "2.0.3",
+  "name": "pres-eventer-modxmeetup",
+  "description": "Slides for speech on Eventer event",
+  "version": "1.0.0",
   "author": {
-    "name": "Vadim Makeev",
-    "url": "http://pepelsbey.net/"
+    "name": "Ivan Klimchuk",
+    "url": "http://klimchuk.by/"
   },
-  "homepage": "https://github.com/shower/shower",
+  "homepage": "https://github.com/Alroniks/pres-eventer-modxmeetup",
   "repository": {
     "type": "git",
-    "url": "git://github.com/shower/shower.git"
+    "url": "git://github.com/Alroniks/pres-eventer-modxmeetup.git"
   },
   "bugs": {
-    "url": "http://github.com/shower/shower/issues"
+    "url": "http://github.com/Alroniks/pres-eventer-modxmeetup/issues"
   },
   "license": "MIT",
   "keywords": [
-    "shower",
+    "eventer",
     "presentation",
-    "template"
+    "Ivan",
+    "Klimchuk"
   ],
   "dependencies": {
+    "local-web-server": "^1.1.0",
     "shower-core": "^2.0.0",
     "shower-material": "^1.0.0",
-    "shower-ribbon": "^2.0.0"
+    "shower-next": "0.0.6",
+    "shower-notes": "0.0.7",
+    "shower-timer": "0.0.11"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
