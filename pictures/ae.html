@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://alroniks.github.io/pres-mmm-gitify/ -->
+<html lang="en" data-livestyle-extension="available" class="gr__alroniks_github_io"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Gitify – швейцарский нож для MODX-воина</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./ae_files/screen-16x10.css">
+</head>
+<body class="shower list" data-plugins="next timer markdown notes" data-timing="05:00">
+	<header class="caption">
+		<h1>Gitify – швейцарский нож для MODX-воина</h1>
+		<p>Иван Климчук, <a href="https://alroniks.com/">Alroniks Experts</a>.</p>
+	</header>
+	<section class="slide" id="cover">
+		<h2>Gitify – швейцарский нож для MODX-воина</h2>
+		<p>Вооруженный до зубов <a href="http://klimchuk.by/">Иван Климчук</a></p>
+		<img src="./ae_files/cover.jpg" alt="" class="cover">
+		<img src="./ae_files/swiss.png" alt="" class="place bottom right">
+		<style>
+			#cover h2 {
+				margin:30px 0 0;
+				color:#FFF;
+				text-align:center;
+				font-size:70px;
+				}
+			#cover p {
+				margin:10px 0 0;
+				text-align:center;
+				color:#FFF;
+				font-style:italic;
+				font-size:20px;
+				}
+				#cover p a {
+					color:#FFF;
+					}
+			#cover img.place {
+				width: 10em;
+			}
+		</style>
+	</section>
+	<section class="slide" id="ou">
+		<h2>Как делаются проекты на MODX?</h2>
+		<ul>
+			<li class="next">Х*к-х*к и в продакшн!</li>
+			<li class="next">Разработка в команде: waterfall, scrum, canban и тд.</li>
+			<li class="next">Длительная поддержка и развитие</li>
+		</ul>
+		<img src="./ae_files/ou.jpg" alt="" class="place right top">
+		<style>
+			#ou img {
+				top: 12%;
+				height: 300px;
+			}
+		</style>
+	</section>
+	<section class="slide" id="3">
+		<img src="./ae_files/teammates.jpg" alt="" class="cover" style="width: 100%;">
+		<footer>
+			Работа в команде над MODX сайтом всегда была адом. Конфликты ID, особенности архитектуры не позволяют в полной мере пользоваться современными инструментами.
+		</footer>
+	</section>
+	<section class="slide" id="Tools">
+		<h2>Решения</h2>
+		<ul>
+			<li class="next">Teleport</li>
+			<li class="next">Teleport</li>
+			<li class="next">SE Manager (умер)</li>
+			<li class="next">ElementHelper</li>
+			<li class="next">Cast (похоже тоже умер)</li>
+			<li class="next">и другие</li>
+		</ul>
+		<img src="./ae_files/kez.png" alt="" class="place top right">
+		<style>
+			#Tools img {
+				right: 10%;
+				top: 10%;
+				height: 300px;
+			}
+		</style>
+	</section>
+	<section class="slide" id="cr1">
+		<h2>Code review</h2>
+		<img src="./ae_files/cat.gif" alt="" class="cover" style="width: 100%;">
+		<style>
+			#cr1 h2 {
+				color: #fff;
+			}
+		</style>
+	</section>
+	<section class="slide" id="6">
+		<h2>Code review</h2>
+		<ul>
+			<li>дешевый поиск ошибок</li>
+			<li>сохранность качества кода</li>
+			<li>непрерывный процесс обучения</li>
+			<li>коммуникация внутри команды</li>
+		</ul>
+		<footer>
+			Код ревью очень важный этап работы над проектом, особенно в команде. Он в несколько раз повышает уровень и качество работы разработчиков. Так как чтение чужого кода, написание читаемого собственного кода заставляют программиста более внимательно относиться к своему коду.
+		</footer>
+	</section>
+	<section class="slide" id="7">
+		<h2 class="shout">Git и GitHub</h2>
+	</section>
+	<section class="slide" id="8">
+		<img src="./ae_files/knife.jpg" alt="" class="cover">
+	</section>
+	<section class="slide" id="9">
+		<h2>Gitify</h2>
+		<p class="">
+			Основная задача Gitify – это собрать элементы действующего сайта в понятный человеку формат, сохранить в файлы и точно так же восстановить сайт из файлов, но уже в другом месте (на боевом сервере, например). Важное в этом процессе — читаемый формат и то, что версиями этих файлов можно управлять посредством git.
+		</p>
+	</section>
+	<section class="slide" id="10">
+		<img src="./ae_files/modmore.png" class="place middle middle">
+	</section>
+	<section class="slide" id="history">
+		<h2>Историческая справка</h2>
+		<ul>
+			<li>Первый коммит 1 июня 2014 года</li>
+			<li>Анонс на MODX Weekend в сентябре 2014</li>
+			<li>Документация на русском летом 2015</li>
+			<li>11 минорных версий, стабильная 1.0 на подходе</li>
+		</ul>
+		<img src="./ae_files/history.png" alt="" class="place bottom right">
+		<style>
+			#history img {
+				bottom: 10%;
+				right: 10%;
+				width: 200px;
+			}
+		</style>
+	</section>
+	<section class="slide" id="12">
+		<h2>Установка</h2>
+		<p>Для начала нужно установить Composer – менеджер пакетов для PHP.</p>
+		<pre>		 	<code>git clone https://github.com/modmore/Gitify.git gitify</code>
+		 	<code>cd gitify</code>
+		 	<code>compser install</code>
+		 	<code>chmod +x Gitify</code>
+		 	<code><mark>gitify init</mark></code>
+		</pre>
+		<p class="note">Можно настроить alias в .bashrc или .bash_profile</p>
+	</section>
+	<section class="slide" id="13">
+		<h2>Настройка и конфигурация</h2>
+		<p>Вся конфигурация сайта хранится в файле <code>.gitify</code>в формате YAML.</p>
+		<p class="double">
+		</p><pre>			<code>data_directory: _data/</code>
+			<code>data:</code>
+			<code>	templates:</code>
+			<code>		class: modTemplate</code>
+			<code>		primary: templatename</code>
+			<code>		extension: .html</code>
+		</pre>
+		<p></p>
+	</section>
+	<section class="slide" id="14">
+		<h2>Что может: build/extract</h2>
+		<pre>			<code>gitify extract</code>
+			<code>gitify build</code>
+			<code>gitify build --force</code>
+			<code>gitify build --skip-clear-cache</code>
+			<code>gitify build --force --no-backup</code>
+		</pre>
+	</section>
+	<section class="slide" id="15">
+		<h2>Что может: backup/restore</h2>
+		<pre>			<code>gitify backup</code>
+			<code>gitify backup name</code>
+			<code>gitify restore</code>
+			<code>gitify restore name</code>
+			<code>gitify restore last</code>
+		</pre>
+	</section>
+	<section class="slide" id="16">
+		<h2>Что может: modx:install и modx:upgrade</h2>
+		<pre>			<code>gitify modx:install</code>
+			<code>gitify modx:install 2.4.2-pl</code>
+			<code>gitify modx:install latest</code>
+			<code>gitify modx:install --download</code>
+			<code>gitify modx:upgrade</code>
+			<code>gitify modx:upgrade --download</code>
+		</pre>
+	</section>
+	<section class="slide" id="17">
+		<h2>Что может: package:install</h2>
+		<pre>			<code>gitify package:install packagename</code>
+			<code>gitify package:install --all</code>
+			<code>gitify package:install --all --interactive</code>
+		</pre>
+	</section>
+	<section class="slide" id="18">
+		<h2>Как быть с одинаковыми ID?</h2>
+		<p>
+			Объект, ID которого уже существует, временно сохраняется в памяти. После полного завершения остальной сборки, включая очистку, gitify пытается разрешить конфликт. В случае перемещения или переименования объекта, после очистки "старый" объект будет удален, а новый будет вставлен правильно. Если же конфликт на самом деле есть, сохраненный в памяти объект будет вставлен с новым ID и для него будет запущена команда <code>gitify extract</code>.
+		</p>
+	</section>
+	<section class="slide" id="19">
+		<h2>Автоочистка</h2>
+		<p>
+			Удаляются все ресурсы, которым на найдено соответствие в файлах. Очистку в момент сборки можно отключить передав параметр <code>--no-cleanup</code>.
+		</p>
+	</section>
+	<section class="slide" id="20">
+		<h2>Где применять?</h2>
+		<ul>
+			<li>Работа над проектом из IDE + code review</li>
+			<li>Работа над проектом в команде: N*dev, M*stage, production</li>
+			<li>Установка и обновление MODX</li>
+			<li>Установка и обновление пакетов</li>
+			<li>Создание резервных копий через backup/restore или через git</li>
+		</ul>
+	</section>
+
+	<section class="slide" id="21">
+		<h2 class="shout shrink"><a href="http://bit.ly/gitifydocs">bit.ly/gitifydocs</a></h2>
+	</section>
+	
+	<section class="slide" id="22">
+		<h2 class="shout shrink">Demo</h2>
+	</section>
+
+	<section class="slide" id="23">
+		<h2>Планы по развитию</h2>
+		<ul>
+			<li>Доработать управление пакетами: установка локальных, добавить параметр --save, добавить сохранение в конфигурацию уже установленных пакетов</li>
+			<li>Доработать существующие функции и исправить баги</li>
+			<li>Добавить работу со схемами БД для более аккуратной работы с данными</li>
+			<li>Улучшить документацию</li>
+		</ul>
+	</section>
+
+	<section class="slide" id="Contacts"><div>
+		<h2>Контакты</h2>
+		<ul>
+			<li class="next"><a href="https://twitter.com/iklimchuk">iklimchuk</a> – Twitter</li>
+			<li class="next"><a href="https://github.com/Alroniks/">Alroniks</a> – GitHub</li>
+			<br>
+			<li class="next"><a href="http://klimchuk.com/">klimchuk.com</a></li>
+			<li class="next"><a href="mailto:ivan@klimchuk.com">ivan@klimchuk.com</a></li>
+			<p class="next note">alroniks</p>
+		</ul>	
+		<span class="next">
+			<img class="ae" src="./ae_files/ae.svg" alt="">
+		</span>
+		<span class="next">
+			<img class="pt1" src="./ae_files/1pt.png" alt="">
+		</span>
+		<style>
+			#Contacts img {
+				position: absolute;
+				width: 30%;
+				right: 15%;
+			}
+			#Contacts img.ae {
+				top: 30%;
+			}
+			#Contacts img.pt1 {
+				top: 60%;
+			}
+		</style>
+	</div></section>
+	<section class="slide" id="25">
+		<img src="./ae_files/ae-symb.png" alt="" class="cover">
+	</section>
+	<section class="slide" id="26">
+		<h2 class="shout">Вопросы?</h2>
+	</section>
+	<p class="badge">
+		<a href="https://github.com/Alroniks/pres-mmm-gitify">Презентация на GitHub</a>
+	</p>
+	<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="-4" aria-valuetext="Slideshow Progress: -4%"></div>
+	<script src="./ae_files/shower.min.js"></script>
+	<script src="./ae_files/shower-notes.js"></script>
+	<script src="./ae_files/shower-timer.js"></script>
+	<script src="./ae_files/shower-next.js"></script>
+	<!-- Copyright © 2015 Ivan Klimchuk, Alroniks Experts. -->
+
+
+<div class="b-y-r-k-i-t-i-p b-y-r-k-i-t-i-p_hidden"></div><section role="region" aria-live="assertive" aria-relevant="additions" aria-label="Slide Content: Auto-updating" class="region"></section><span id="buffer-extension-hover-button" style="display: none;position: absolute;z-index: 8675309;width: 100px;height: 25px;background-image: url(chrome-extension://noojglkidnpfjbincgijbaiedldjfbhh/data/shared/img/buffer-hover-icon@1x.png);background-size: 100px 25px;opacity: 0.9;cursor: pointer;"></span></body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
